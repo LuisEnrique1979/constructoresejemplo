@@ -1,0 +1,61 @@
+<script>
+
+function personas() {
+    let persona1 = {
+        nombre:"123",
+        edad:10
+    }
+    return persona1
+}
+
+/*function persona(nombre, edad) {
+        let persona1 = {
+            nombre: nombre,
+            edad: edad
+        }
+        return persona1
+    }
+
+    let p1 = persona("Marco", 40)
+    let p2 = { apellido: "Marco", edad: 40 }
+
+    console.log(p1, p2)*/
+
+    /*let nombre = prompt('Dame tu nombre')
+    let edad = prompt('Dame tu edad')
+    let apellido = prompt('Dame tu apellido')
+
+    function Persona(nombre, e, a) {
+        this.nombre = nombre
+        this.edad = e
+        this.apellido = a
+    }
+
+    let p1 = new Persona(nombre, edad, apellido)
+    console.log(p1)*/
+
+    let nombre = prompt('Nombre de la mascota')
+    let edad = prompt('Edad de la mascota')
+    let especie = prompt('Especie de la mascota')
+    let juguete1 = prompt('Dame tu juguete 1')
+    let juguete2 = prompt('Dame tu juguete 2') 
+    
+    let juguetes = [juguete1, juguete2]
+
+    function Mascota(n, e, es, j) {
+        this.nombre = n
+        this.edad = e
+        this.especie = es
+        this.juguetes = j
+    }
+
+    let p1 = new Mascota(nombre, edad, especie, juguetes)
+    console.log(p1)
+
+
+
+
+
+
+    
+</script>
